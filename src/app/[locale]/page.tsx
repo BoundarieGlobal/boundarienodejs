@@ -8,7 +8,7 @@ export default function DashboardPage() {
       <section className='flex flex-col items-center justify-center py-24'>
         <h1 className='text-center text-7xl font-extrabold leading-tight'>
           {t('An')}{' '}
-          <span className='bg-span-bg bg-clip-text text-transparent'>
+          <span className='bgnex-span-bg bg-clip-text text-transparent'>
             {t('Booster')}
           </span>
           <br />
