@@ -2,6 +2,12 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
+  plugins: [
+    require('daisyui'),
+  ],
   darkMode: ['class', '[data-theme="dark"]'],
   content: [
     'app/**/*.{ts,tsx}',

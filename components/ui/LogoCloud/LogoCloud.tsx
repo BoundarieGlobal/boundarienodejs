@@ -8,7 +8,7 @@ export default function LogoCloud() {
         <div className="flex items-center justify-start h-12">
           <a href="https://nextjs.org" aria-label="Next.js Link">
             <img
-              src="/nextjs.svg"
+              src="/logo.png"
               alt="Next.js Logo"
               className="h-6 sm:h-12 text-white"
             />
