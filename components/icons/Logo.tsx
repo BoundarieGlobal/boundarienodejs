@@ -1,7 +1,7 @@
 import logoImage from '../../public/logo.svg'; 
 
 const Logo = ({ ...props }) => (
-  <a href="https://nextjs.org" aria-label="Next.js Link">
+  <a href="https://boundarie.org" aria-label="Next.js Link">
               <img
                 src="/logo.png"
                 alt="Next.js Logo"

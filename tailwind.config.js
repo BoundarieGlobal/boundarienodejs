@@ -3,7 +3,19 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   daisyui: {
-    themes: ["light", "dark", "cupcake"],
+    themes: [{
+      mytheme: {
+        "primary": "#a991f7",
+        "secondary": "#f6d860",
+        "accent": "#37cdbe",
+        "neutral": "#3d4451",
+        "base-100": "#ffffff",
+      },
+    },
+    "light", 
+    "dark",
+    "cupcake",
+    "corporate"],
   },
   plugins: [
     require('daisyui'),

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Footer from '@/components/ui/Footer';
 import Navbar from '@/components/ui/Navbar';
+import Card from '@/components/ui/Card'
 import { Toaster } from '@/components/ui/Toasts/toaster';
 import { PropsWithChildren, Suspense } from 'react';
 import { getURL } from '@/utils/helpers';
@@ -39,6 +40,19 @@ export default async function RootLayout({ children }: PropsWithChildren) {
       </div>
     </section>
         </main>
+        <Card 
+          title = "Chris is very cool"
+          children = {
+            <img className = "mentor_img" src = "chris.jpg" width = "100" height = "40"/>
+          }
+          description = "Ethan is very cool"
+          footer = {
+            <Card
+              title = "I love Node.js!!"
+              children = {<img src = "chris.jpg" width = "100" height = "40"/>}
+            />
+          }
+        />
         <Footer />
         <Suspense>
           <Toaster />
